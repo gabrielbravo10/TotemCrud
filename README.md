@@ -15,7 +15,7 @@ TotemCrud is an example project of a crud build in Java.
 ## 2. Build
 
 - Create Database
-- Execute script `src/main/resources/scripts/setup.sql`
+- Execute script `src/main/setup.sql`
 - Edit the file `src/main/java/com/totemti/util/DBConnectionUtil.java` with data related to your environment
 
 
