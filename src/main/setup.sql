@@ -1,4 +1,5 @@
 CREATE DATABASE TotemTI;
+USE TotemTI;
 
 CREATE TABLE Funcionario(
   id int NOT NULL AUTO_INCREMENT,
@@ -10,4 +11,4 @@ CREATE TABLE Funcionario(
   UNIQUE KEY cpf_UNIQUE (cpf)
 );
 
-INSERT INTO Funcionario (nome, email, cpf, cargo) values ('Gabriel', 'gabriel@gmail.com', '0220930484', 'Desenvolvedor');
+INSERT INTO Funcionario (nome, email, cpf, cargo) VALUES ('Gabriel', 'gabriel@gmail.com', '0220930484', 'Desenvolvedor');
